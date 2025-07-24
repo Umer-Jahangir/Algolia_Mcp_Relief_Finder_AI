@@ -1,0 +1,31 @@
+# === BACKEND (Python + Django) ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.env
+.env.*
+backend/.env
+backend/venv/
+venv/
+db.sqlite3
+
+# === FRONTEND (React + Vite) ===
+node_modules/
+dist/
+build/
+.vite/
+frontend/node_modules/
+frontend/.env
+
+# === SHARED ===
+*.swp
+*.swo
+*.orig
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py

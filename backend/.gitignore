@@ -1,0 +1,35 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Node modules (if using React frontend)
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
